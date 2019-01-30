@@ -1,0 +1,39 @@
+.sidebar{
+    background-color: #00152A;
+    min-height: 100vh;
+    color:#bbb;
+}
+
+.sidebar-title{
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    text-align: center;
+    color:#ddd
+}
+
+hr{
+    background-color:#bbb;
+    width:80%;
+    align-content: center
+}
+.nav-card{
+    padding-left: 30px;
+    font-size: 1em;
+}
+
+.sidebar-footer{
+    font-style: italic;
+    bottom:5px;
+    position:fixed;
+    padding-left:30px;
+    font-size: 0.8em;
+    color:#aaa;
+}
+.nav-card:hover, .sidebar-title:hover{
+    color:white;
+    cursor: pointer
+}
